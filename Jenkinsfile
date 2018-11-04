@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 
                 checkout scm
-                
+                   sh "./gradlew -version"
             }
         }
         stage('Test') {
