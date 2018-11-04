@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 
                 checkout scm
-                   sh "gradlew.bat -version"
+                   shell "gradlew.bat -version"
             }
         }
         stage('Test') {
