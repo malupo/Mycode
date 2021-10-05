@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building.......'
+                echo 'Building................'
                 
                 checkout scm
                    shell "gradlew.bat -version"
