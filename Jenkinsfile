@@ -6,6 +6,15 @@ pipeline {
             steps {
                 echo 'Building..'
                 
+
+
+
+
+
+
+
+                
+
                 checkout scm
                    shell "gradlew.bat -version"
             }
