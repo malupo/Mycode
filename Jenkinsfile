@@ -13,7 +13,7 @@ pipeline {
 
 
 
-                
+                /* comment */
 
                 checkout scm
                    shell "gradlew.bat -version"
